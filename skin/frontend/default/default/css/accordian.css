@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+#basic-accordian{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	width:607px;
+	position:relative;
+	z-index:2;
+}
+
+.accordion_headings{
+	padding:5px 5px 5px 25px;
+	background: url(../images/accordion_a.gif) no-repeat;
+	color:#fff;
+	border:1px solid #fff;
+	cursor:pointer;
+	font-weight:bold;
+}
+.accordion_headings:hover{
+	background-position: left -25px;
+}
+
+#basic-accordian .header_highlight{
+	color: #222;
+	background-position: left -50px;
+	cursor: text;
+}
+.accordion_child{
+	padding:15px;
+}

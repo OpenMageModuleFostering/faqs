@@ -1,0 +1,40 @@
+<?php 
+/*
+This fle is used to Display Faqs on front end!
+Created by Kamran Rafiq Malik
+Dated : March 20,2010
+*/
+?>
+
+<?php  
+
+	$resource = Mage::getSingleton('core/resource');
+	$read= $resource->getConnection('core_read');
+	$faqsTable = $resource->getTableName('faqs');
+	
+	$select = $read->select()
+   ->from($faqsTable,array('faqs_id','title','content','status'))
+   ->where('status',1)
+   ->order('created_time DESC') ;
+	$faqs = $read->fetchAll($select);
+
+	
+?> 
+<?php $j = 160;?>
+<br />
+<div id="basic-accordian">
+	  <?php $i=0; foreach ($faqs as $_faqs): ?>
+		<div id="testcat_<?php echo $j ?>-header" class="accordion_headings"><?php echo $_faqs["title"]; ?></div>
+		<div id="testcat_<?php echo $j ?>-content">
+			<div class="accordion_child">
+				<div id="CatDIV_<?php echo $j ?>">
+					<?php echo $_faqs["content"]; ?>
+				</div>
+			</div>	
+		</div>
+        <?php $j++;?>
+	  <?php endforeach; ?> 
+</div>
+<script type="text/javascript">
+	window.onload = function(){ new Accordian('basic-accordian',5,'header_highlight'); };
+</script>

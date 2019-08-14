@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Faqs</name>
+    <version>1.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/gpl-license.php">GNU General Public License (GPL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>FAQ is a Magento useful extension used to manage FAQ (Frequently Asked Question).</summary>
+    <description>FAQ is a Magento useful extension used to manage FAQ (Frequently Asked Question).</description>
+    <notes>Download Latest Version!</notes>
+    <authors><author><name>Kamran Rafiq Malik</name><user>auto-converted</user><email>kamran.malik@unitedsol.net</email></author></authors>
+    <date>2010-04-21</date>
+    <time>12:16:03</time>
+    <contents><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="faqs.xml" hash="cdf98802c33b040866e96e702aece174"/></dir></dir></dir></dir><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="faqs.xml" hash="4f7a67defa2c2c2beae8a96b69df770e"/></dir><dir name="template"><dir name="faqs"><file name="faqs.phtml" hash="88f71a4a83e200d62bafb910ea526f9d"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="default"><dir name="default"><dir name="css"><file name="accordian.css" hash="ca1e80b8b1aadb4eda09b64e29980eff"/></dir><dir name="images"><file name="accordion_a.gif" hash="e7ee541a6cf2923c690276eb88ca2b1e"/></dir></dir></dir></dir></target><target name="mage"><dir name="js"><dir name="jquery"><file name="accordian.pack.js" hash="33ce5a3782f151f232f0e2f1ab165e37"/></dir></dir></target><target name="magelocal"><dir name="Mage"><dir name="Faqs"><dir name="Block"><dir name="Adminhtml"><dir name="Faqs"><dir name="Edit"><dir name="Tab"><file name="Form.php" hash="1ae5b5a24644b39a3fb6ea88ff28d7e7"/></dir><file name="Form.php" hash="15425ffc154f9989da09fe53d409b175"/><file name="Tabs.php" hash="5cca8d26a49f3c18831c030457a6795c"/></dir><file name="Edit.php" hash="f17bea01ab862942db7bae28ca76dae7"/><file name="Grid.php" hash="fe85f4378b95b398f998cfa65fb7db51"/></dir><file name="Faqs.php" hash="db8a6d6f4eed62e5b8b71aca68ddd432"/></dir><file name="Faqs.php" hash="35b941414f09d0fa2c4844bd2cdd2e24"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="FaqsController.php" hash="125a527726990f7392370e4bf388a302"/></dir><file name="IndexController.php" hash="d3003aa4d129eba0670c6e5b81059179"/></dir><dir name="etc"><file name="config.xml" hash="73ef21938fbb72328725d791c32a1cd0"/></dir><dir name="Helper"><file name="Data.php" hash="0888b7b9235e4dca060d65e5aa714788"/></dir><dir name="Model"><dir name="Mysql4"><dir name="Faqs"><file name="Collection.php" hash="5ba072f98eeb5d3c7f20087e31706e0b"/></dir><file name="Faqs.php" hash="acca5c06cffa764d49aef1d099b253e6"/></dir><file name="Faqs.php" hash="55267216790b25fa0c2ba895d0a51658"/><file name="Status.php" hash="a16d8e04937a755243ecfe51191c9d46"/></dir><dir name="sql"><dir name="faqs_setup"><file name="mysql4-install-0.1.0.php" hash="ae1a34e1ff4325e75da7b20d5ac6dede"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Mage_Faqs.xml" hash="a5827bdf5efdca314c85e200f4af3fe4"/></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>
