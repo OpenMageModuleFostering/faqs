@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Faqs",
+    "name": "OpenMageModuleFostering\/Faqs",
     "type": "magento-module",
     "license": "GNU-General-Public-License-(GPL)",
     "homepage": "",
     "description": "FAQ is a Magento useful extension used to manage FAQ (Frequently Asked Question).",
     "authors": [
-    {
-        "name": "Kamran Rafiq Malik",
-        "email": "kamran.malik@unitedsol.net"
-    }
-],
+        {
+            "name": "Kamran Rafiq Malik",
+            "email": "kamran.malik@unitedsol.net"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
