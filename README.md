@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 FAQ is a Magento useful extension used to manage FAQ (Frequently Asked Question).
